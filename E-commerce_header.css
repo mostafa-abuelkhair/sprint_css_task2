@@ -1,3 +1,4 @@
+/**{border: SOLID;}*/
 
 nav{
     background-color: gray;
@@ -5,13 +6,45 @@ nav{
 }
 
 
+nav a:nth-child(2){
+    margin-left: 30px;
+}
+nav a{
+text-decoration: none;
+color: white;
+margin-left: 15px;
+}
+
+.f-right{
+    float: right;
+}
+
+.navIcon{
+    display: flex;
+    margin-right: 20px;
+    height: 100%;
+    float: right;
+    align-items: center;
+}
 
 
+.navIcon i{
+color: yellow;
+}
 
+.navIcon span{
+    color: white;
+    border: solid;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    }
 
 
 
 nav .dropdown{
+    margin-left: 50px;
     display: inline-block;
     position: relative;
     height: 100%;
@@ -23,9 +56,6 @@ nav .dropdown  i{
     padding: 10px;
 }
 
-nav .fa-chevron-down{
-    float: right;
-}
 
 nav .dropdown button {
     background-color: yellow;
